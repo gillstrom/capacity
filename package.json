@@ -1,0 +1,45 @@
+{
+  "name": "capacity",
+  "version": "1.0.0",
+  "description": "Get your computers full charge capacity",
+  "license": "MIT",
+  "repository": "gillstrom/capacity",
+  "author": {
+    "name": "Andreas Gillström",
+    "email": "andreasgillstrom@gmail.com",
+    "url": "github.com/gillstrom"
+  },
+  "bin": "cli.js",
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "index.js",
+    "cli.js"
+  ],
+  "keywords": [
+    "app",
+    "battery",
+    "capacity",
+    "charge",
+    "cli",
+    "cli-app",
+    "full",
+    "health",
+    "life",
+    "mac",
+    "osx"
+  ],
+  "dependencies": {
+    "meow": "^3.4.2",
+    "osx-battery": "^4.0.0",
+    "to-percent": "^1.0.2"
+  },
+  "devDependencies": {
+    "ava": "*",
+    "xo": "*"
+  }
+}
